@@ -6,7 +6,7 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" >
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
@@ -23,7 +23,7 @@
   <![endif]-->
   <header>
     <div class ="content-wrapper">
-      <a href="#"><img src="" alt="unplugged logo"></a>
+      <a href="../index.html"><img class="logo-img" src="../img/logo.png" alt="unplugged logo"></a>
       <div class="header-divider"></div>
       <nav>
         <ul>
@@ -36,8 +36,10 @@
 <main>
   <section class="mission">
     <div class="content-wrapper">
-        <div class="mission-content">
+        <div class="mission-content" class="title">
           <h1>Our Mission- we want to make you the team you always wanted to be.</h1>
+        </div>
+          <div class="mission-content" class="content">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies massa nec vulputate interdum. Etiam suscipit convallis lorem et efficitur. Cras at leo vel leo dignissim posuere at vitae nisi. Pellentesque consectetur lorem vitae augue venenatis finibus. Quisque ipsum purus, suscipit non nisl eget, egestas auctor nisi. Morbi iaculis suscipit erat, in efficitur ante sollicitudin sit amet.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies massa nec vulputate interdum. Etiam suscipit convallis lorem et efficitur. Cras at leo vel leo dignissim posuere at vitae nisi. Pellentesque consectetur lorem vitae augue venenatis finibus. Quisque ipsum purus, suscipit non nisl eget, egestas auctor nisi. Morbi iaculis suscipit erat, in efficitur ante sollicitudin sit amet.</p>
         </div>
@@ -45,6 +47,7 @@
  </section> <!-- contact info -->
   <section class="map">
     <figure>
+      <img src="../img/map.png">
     </figure>
   </section>
   <section class="contact-section">
@@ -59,28 +62,36 @@
           <p>555-555-5556<br>
             facilitator@unplugged.com</p>
       </div>
-      <div class="col-2">
-        <h4>Contact</h4>
-        <p>555-555-5555<br>
-          hello@unplugged.com<p>
-      </div>
     </div>
 
   </section>
   <footer>
     <div class="content-wrapper">
       <div class="footer-content">
+        <address class="contact">
+          <h4>Contact</h4>
+          <p>
+            555-555-5555<br>
+            hello@unplugged.com
+          </p>
+        </address>
         <div class="social">
-            <div class="social-icons">
-                <p><a href="https://www.facebook.com/yoursite" target="_blank"></a></p>
-                <p><a href="https://www.twitter.com/yoursite" target="_blank"></a></p>
-                <p><a href="https://www.instagram.com/yoursite" target="_blank"></a></p>
-                <!-- other social links here -->
-            </div>
+          <h4>Social</h4>
+          <div class="social-icons">
+            <p>
+            <a href="https://www.facebook.com/Skillcrush/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </p>
+            <p>
+            <a href="https://twitter.com/Skillcrush" target="_blank"><i class="fab fa-twitter"></i></a>
+            </p>
+            <p>
+            <a href="https://www.instagram.com/skillcrush/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </p>
+          </div>
         </div>
       </div> <!-- footer content ends -->
-    </div> <!--footer content-wrapper ends-->
-
+    </div>
+    <!--footer content-wrapper ends-->
     <div class="copyright">
       <p>Copyright 2018 | Unplugged</p>
     </div>
